@@ -1,0 +1,28 @@
+{
+  "name": "ui",
+  "version": "0.0.0",
+  "main": "./index.tsx",
+  "types": "./index.tsx",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint *.ts*"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.15",
+    "eslint": "8.19.0",
+    "eslint-config-custom": "workspace:^",
+    "tsconfig": "workspace:^",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.2.1",
+    "@emotion/react": "11",
+    "@emotion/styled": "11",
+    "@saas-ui/react": "^1.1.0",
+    "framer-motion": "6"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-dom": "*"
+  }
+}
